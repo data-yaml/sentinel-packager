@@ -11,6 +11,10 @@
       "type": "runtime"
     },
     {
+      "name": "aws-cdk.aws-lambda-python-alpha",
+      "type": "runtime"
+    },
+    {
       "name": "constructs",
       "version": "^10.0.5",
       "type": "runtime"

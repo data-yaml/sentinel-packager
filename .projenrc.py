@@ -9,4 +9,6 @@ project = AwsCdkPythonApp(
     version="0.1.0",
 )
 
+project.add_dependency("aws-cdk.aws-lambda-python-alpha")
+
 project.synth()
