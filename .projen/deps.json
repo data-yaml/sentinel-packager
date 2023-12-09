@@ -1,6 +1,18 @@
 {
   "dependencies": [
     {
+      "name": "black",
+      "type": "devenv"
+    },
+    {
+      "name": "flake8",
+      "type": "devenv"
+    },
+    {
+      "name": "isort",
+      "type": "devenv"
+    },
+    {
       "name": "projen",
       "version": "0.77.5",
       "type": "devenv"
