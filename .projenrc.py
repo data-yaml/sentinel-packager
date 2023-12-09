@@ -9,4 +9,10 @@ project = AwsCdkPythonApp(
     version="0.1.0",
 )
 
+project.add_dependency("aws-cdk.aws-lambda-python-alpha")
+project.add_dev_dependency("black")
+project.add_dev_dependency("flake8")
+project.add_dev_dependency("isort")
+project.add_dev_dependency("mypy")
+
 project.synth()
